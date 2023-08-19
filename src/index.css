@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.masonry-grid {
+  display: flex;
+ /* gutter size offset */
+}
+
+.frontpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.center-image {
+  max-width: 200%;
+  max-height: 100%;
+  /* object-fit: contain; */
+}
+
+
+button {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 80px;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-search form {
+  margin-left: 300px;
+
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 8px 16px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 16px;
+  margin: 16px;
+}
+.jagged {
+  transform: rotate(-2deg);
+}
+
+.image-grid img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.navbar-search input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px;
+  width: 400px;
+
+}
+
+.navbar-search button {
+  
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar-search button:hover {
+  background-color: #555;
+}
+
+
+
+.navbar-logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 16px;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}

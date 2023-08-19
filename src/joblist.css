@@ -1,0 +1,58 @@
+.job-listing {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .job-listing h3 {
+    margin-top: 0;
+  }
+  
+  .job-listing button {
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .job-listing button:hover {
+    background-color: #0066cc;
+  }
+  
+  .job-listing p {
+    margin: 0;
+  }
+  
+  .job-listing p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .job-listing p:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  
+  .job-list {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* center everything */
+  .creative-jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  

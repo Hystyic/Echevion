@@ -1,0 +1,62 @@
+.front-page {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .image-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+  }
+  
+  .image-container:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .overlay button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .overlay button:hover {
+    background-color: white;
+    color: black;
+  }
+  

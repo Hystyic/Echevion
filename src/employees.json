@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Erricson",
+      "tags": [
+        "Graphic Design",
+        "UI/UX",
+        "Illustration"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Apple",
+      "tags": [
+        "UI/UX",
+        "3D Modeling",
+        "Photography"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Google",
+      "tags": [
+        "Motion Graphics",
+        "Graphic Design",
+        "UI/UX"
+      ],
+      "flag": true
+    },
+    {
+      "name": "Amazon",
+      "tags": [
+        "Photography",
+        "Illustration",
+        "Motion Graphics"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Meta",
+      "tags": [
+        "3D Modeling",
+        "Graphic Design",
+        "Photography"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Microsoft",
+      "tags": [
+        "Illustration",
+        "UI/UX",
+        "3D Modeling"
+      ],
+      "flag": false
+    },
+    {
+      "name": "PESU",
+      "tags": [
+        "Graphic Design",
+        "Motion Graphics",
+        "UI/UX"
+      ],
+      "flag": false
+    },
+    {
+      "name": "Flipkart",
+      "tags": [
+        "Photography",
+        "Illustration",
+        "3D Modeling"
+      ],
+      "flag": false
+    }
+  ]
+  

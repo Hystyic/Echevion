@@ -1,0 +1,60 @@
+/* Hiring.css */
+
+form .hiring-container{
+
+    align-items: center;
+    padding: 20px;
+}
+.hiring-container {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .hiring-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hiring-container form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .hiring-container label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hiring-container select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hiring-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hiring-container li {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .hiring-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .hiring-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hiring-container p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
