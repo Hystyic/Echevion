@@ -28,7 +28,6 @@ This ensures that the matches are "stable" and mutually beneficial.
 
 - **Frontend**: React.js for a modern, responsive user interface.
 - **Backend**: Node.js with Express.js for handling API requests and managing user data.
-- **Database**: MongoDB for storing user profiles, preferences, and matches.
 - **Algorithm**: Gale-Shapley algorithm implemented in JavaScript to handle the matching logic.
 
 ## Installation
@@ -38,7 +37,6 @@ To set up and run the project locally, follow these steps:
 ### Prerequisites
 
 - Node.js (v14 or later)
-- MongoDB (v4 or later)
 
 ### Steps
 
@@ -48,8 +46,6 @@ To set up and run the project locally, follow these steps:
    git clone https://github.com/Hystyic/Echevion.git
    cd Echevion
    npm install
-   MONGODB_URI=mongodb://localhost:27017/echevion
-   PORT=3000
    npm start
 
 ### Screenshot
